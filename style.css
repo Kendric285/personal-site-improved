@@ -1,0 +1,62 @@
+html {
+    font-size: 28px;
+    font-family: Impact, Charcoal, sans-serif;
+    text-align: center;
+  }
+  table,tr,td {
+    border: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    
+  }
+  
+  div a:hover{
+    color:#22e5ce;
+  }
+  
+  
+  hr {
+    height: 12px; 
+    background: #333; 
+  
+  }
+  #navbar {
+    overflow: hidden;
+    background-color: #333;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+  }
+  
+  #navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration-line: none;
+  }
+  #navbar a:hover {
+    background-color: #22e5ce;
+    color: black;
+  }
+  
+  h1 {
+    color: #22e5ce;
+  }
+
+#img_and_about{
+    display: flex;
+    justify-content: space-around ;
+}
+.vids{
+    margin: 0;
+    display: block;
+    width: 30%;
+}
+#project_vids{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
